@@ -1,0 +1,42 @@
+{
+  "id": "member-007",
+  "name": {
+    "ja": "古橋 亮羽",
+    "reading": "ふるはし りょう",
+    "en": "Ryo Furuhashi"
+  },
+  "role": "コピーライター",
+  "status": "active",
+  "birth_year": 1985,
+  "joined_date": "2026-01-01",
+  "background": [
+    "TCC会員",
+    "2026年からkiCkに新メンバーとして参画"
+  ],
+  "strengths": [],
+  "expertise": [
+    "コピーライティング"
+  ],
+  "peer_feedback": {
+    "period": "",
+    "source": "",
+    "good": [],
+    "more": [],
+    "additional_comments": []
+  },
+  "self_evaluation": null,
+  "projects": [],
+  "one_on_ones": [
+    {
+      "date": "2026-03-01",
+      "memo": "2026年3月 古橋との1on1メモ（宮崎ログ：内容は別途展開予定）"
+    }
+  ],
+  "core_theme": {
+    "translation": "新たなコピー視点をチームに持ち込む。TCC会員としての言語感覚と、外から見たチームへの視点で、コピー領域を拡張する。",
+    "half_year_theme": "",
+    "future_comment": ""
+  },
+  "management_memo": "2026年からの新メンバー。TCC会員。参画間もないため詳細評価情報は未取得。3月に1on1実施済み。今後の強み・課題把握はこれから。",
+  "updated_at": "2026-05-13T00:00:00+09:00"
+}

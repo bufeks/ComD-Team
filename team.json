@@ -4,30 +4,114 @@
     "abbreviation": "ComD",
     "organization": "株式会社kiCk",
     "leader": "member-001",
-    "description": "ブランドコミュニケーション設計からビジュアル・コピー表現まで統合的に担うクリエイティブチーム",
+    "sub_leader": "member-002",
+    "description": "広告・ブランド・コミュニケーション設計・企画・コピー・クリエイティブディレクションを担うチーム",
+    "common_goal": "全員がプロジェクトの中心人物になる",
+    "common_goal_note": "単に全員がリーダーになるという意味ではなく、各自が自分の職能・強み・担当領域の中で、案件を前に進める主体になること",
+    "data_reference_date": "2025-12-01",
+    "data_note": "保持している主な評価・整理情報は2025年12月時点。今後アップデートされる前提の変動情報として扱う。",
     "updated_at": "2026-05-13T00:00:00+09:00"
   },
   "members": [
     {
       "id": "member-001",
       "name": "宮崎 太郎",
-      "role": "Creative Director",
+      "role": "クリエイティブディレクター / チームリーダー",
       "status": "active",
       "file": "members/member-001_miyazaki-taro.json"
     },
     {
       "id": "member-002",
-      "name": "田中 花子",
-      "role": "Art Director",
-      "status": "active",
-      "file": "members/member-002_sample.json"
+      "name": "小野間 良",
+      "role": "サブリーダー / コミュニケーションプランナー",
+      "status": "on_leave",
+      "file": "members/member-002_onoma-ryo.json"
     },
     {
       "id": "member-003",
-      "name": "佐藤 健",
-      "role": "Copywriter",
+      "name": "鈴木 雅昭",
+      "role": "コピーライター",
       "status": "active",
-      "file": "members/member-003_sample.json"
+      "file": "members/member-003_suzuki-masaaki.json"
+    },
+    {
+      "id": "member-004",
+      "name": "坂井 大生",
+      "role": "コピーライター",
+      "status": "active",
+      "file": "members/member-004_sakai-taisei.json"
+    },
+    {
+      "id": "member-005",
+      "name": "佐内 歩",
+      "role": "プランナー",
+      "status": "active",
+      "file": "members/member-005_sanai-ayumi.json"
+    },
+    {
+      "id": "member-006",
+      "name": "稲垣 香奈",
+      "role": "プランナー",
+      "status": "active",
+      "file": "members/member-006_inagaki-kana.json"
+    },
+    {
+      "id": "member-007",
+      "name": "古橋 亮羽",
+      "role": "コピーライター",
+      "status": "active",
+      "file": "members/member-007_furuhashi-ryo.json"
+    }
+  ],
+  "team_themes": {
+    "current_issues": [
+      {
+        "theme": "「中心人物になる」の粒度を個別化する",
+        "description": "全員に同じリーダー像を求めるのではなく、職能・性格・強みに応じて中心人物像を翻訳する",
+        "per_member": {
+          "member-001": "未来像と勝ち筋を示す",
+          "member-002": "構造と実装で支える",
+          "member-003": "構造と情緒の深度で支える",
+          "member-004": "提案の核・表現の突破口に踏み込む",
+          "member-005": "断片を勝ち筋に変換する",
+          "member-006": "跳躍案を通る企画にする",
+          "member-007": "新たなコピー視点をチームに持ち込む"
+        }
+      },
+      {
+        "theme": "「相談しやすさ」と「突き抜け」の両立",
+        "description": "複数メンバーに共通して「もっと相談してほしい・詰めたい・話したい」という評価がある。各人の忙しさによる会話の余白不足が原因と見られる"
+      },
+      {
+        "theme": "コピー領域の強化",
+        "description": "坂井・鈴木・古橋のコピーライター陣がいるが、課題は正確性ではなく「提案の核になる言葉」「案件を動かす言葉」「突き抜けた表現」「CD的に機能するコピー」にある"
+      },
+      {
+        "theme": "プランナー陣の主体化",
+        "description": "佐内（探索・カルチャー・場づくり・調整・情報ハブ型）と稲垣（生活者理解・跳躍力・共感・推進型）の両者が、自分の強みを案件の意思決定に接続する必要がある"
+      },
+      {
+        "theme": "宮崎太郎自身の課題",
+        "description": "案件過多により、相談の余白・リアクションの余白・仕切りの見え方・メンバーが安心して詰められる場が課題。突き抜けたクリエイティブを牽引することと、メンバーが相談しやすい余白をつくることの両立がテーマ"
+      }
+    ]
+  },
+  "reference_materials": [
+    {
+      "type": "evaluation",
+      "description": "2025年上期評価（2025/06/01〜11/30）",
+      "covers": ["member-001", "member-002", "member-003", "member-004", "member-005", "member-006"],
+      "contents": ["自己評価", "AD・プロデューサーからのGood/More", "追加コメント", "総評", "行動目標観点", "中心人物像の個別翻訳", "半年仮テーマ・未来志向コメント"]
+    },
+    {
+      "type": "one_on_one_log",
+      "description": "2026年3月分1on1メモ",
+      "covers": ["member-007", "member-005", "member-006", "member-004"]
+    },
+    {
+      "type": "lecture_material",
+      "description": "広告CDパートナー作成の講義資料",
+      "topics": ["デコン", "AdRole", "USP", "インサイト", "ブランド", "ディレクション", "プレゼン"]
     }
   ]
 }

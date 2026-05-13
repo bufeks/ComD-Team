@@ -2,94 +2,90 @@
   "id": "member-001",
   "name": {
     "ja": "宮崎 太郎",
+    "reading": "みやざき たろう",
     "en": "Taro Miyazaki"
   },
-  "role": "Creative Director",
+  "role": "クリエイティブディレクター / チームリーダー",
   "status": "active",
   "contact": {
     "email": "t.miyazaki@kick.co.jp",
     "slack": "@taro.miyazaki"
   },
-  "joined_date": "2020-04-01",
-  "skills": [
-    { "name": "クリエイティブディレクション", "level": 5, "category": "management" },
-    { "name": "ブランディング戦略", "level": 5, "category": "strategy" },
-    { "name": "UI/UXデザイン", "level": 4, "category": "design" },
-    { "name": "コピーライティング", "level": 4, "category": "copy" },
-    { "name": "プロジェクトマネジメント", "level": 5, "category": "management" },
-    { "name": "プレゼンテーション", "level": 5, "category": "management" }
+  "background": [
+    "株式会社kiCk所属",
+    "広告業界"
   ],
-  "tools": [
-    { "name": "Figma", "level": "advanced" },
-    { "name": "Adobe Illustrator", "level": "expert" },
-    { "name": "Adobe Photoshop", "level": "expert" },
-    { "name": "Adobe Premiere Pro", "level": "intermediate" },
-    { "name": "Notion", "level": "advanced" }
+  "strengths": [
+    "洞察力が高い",
+    "要点整理と翻訳力が非常に高い",
+    "多忙でも効率的に高品質なアウトプットができる",
+    "フラットで、機嫌が安定している",
+    "共感される言葉選びができる",
+    "知識・好奇心の幅が広い",
+    "切り替えが早い",
+    "既存の評価軸に縛られず、自分なりの物差しで本質を捉えようとする"
   ],
-  "expertise": [
-    "ブランドアイデンティティ構築",
-    "統合コミュニケーション設計",
-    "クリエイティブチームマネジメント",
-    "クライアントリレーション"
-  ],
-  "projects": [
-    {
-      "id": "proj-2026-001",
-      "name": "○○ブランドリニューアル",
-      "role": "Creative Director",
-      "status": "active",
-      "start_date": "2026-01-01"
-    },
-    {
-      "id": "proj-2025-005",
-      "name": "△△キャンペーン",
-      "role": "Creative Director",
-      "status": "completed",
-      "start_date": "2025-06-01",
-      "end_date": "2025-12-31"
+  "clifton_strengths": {
+    "top5": ["着想", "未来志向", "達成欲", "活発性", "戦略性"],
+    "top10": ["着想", "未来志向", "達成欲", "活発性", "戦略性", "収集心", "自己確信", "目標志向", "自我", "競争性"],
+    "summary": "戦略的思考力に強みがある。未来の可能性を大量に発想し（着想×未来志向）、複数案から勝ち筋を選び（戦略性）、すぐに動かして成果に変えたいタイプ（達成欲×活発性）。6〜10位に収集心／自己確信／目標志向／自我／競争性があり、情報収集・自己判断・目標設定・存在感・勝ち筋への意識も強い。盲点として、アイデア量で相手を圧倒する可能性、思考速度で周囲が追いつきにくい可能性、計画が粗いまま動く可能性、他者にも同等のスピードや達成基準を求めてしまう可能性がある。"
+  },
+  "talent_analytics": {
+    "assessed_at": "2019年（32歳時点）",
+    "scores": {
+      "発想性": 80,
+      "変革性": 77,
+      "主体性": 67,
+      "持続性": 23,
+      "評価ストレス耐性": 29,
+      "チャレンジャー志向": 96,
+      "自立": 88,
+      "アントレプレナー": 85
     }
-  ],
-  "goals": {
-    "fiscal_year": "2026",
-    "okrs": [
-      {
-        "objective": "チームのアウトプット品質を業界トップ水準に引き上げる",
-        "key_results": [
-          {
-            "description": "クライアント満足度スコア",
-            "target": 4.8,
-            "current": 4.5,
-            "unit": "/ 5.0"
-          },
-          {
-            "description": "受賞・ノミネート件数",
-            "target": 3,
-            "current": 1,
-            "unit": "件"
-          }
-        ]
-      },
-      {
-        "objective": "メンバーの成長を加速させる組織づくり",
-        "key_results": [
-          {
-            "description": "1on1実施率（月次）",
-            "target": 100,
-            "current": 80,
-            "unit": "%"
-          },
-          {
-            "description": "チームエンゲージメントスコア",
-            "target": 85,
-            "current": 72,
-            "unit": "点"
-          }
-        ]
-      }
+  },
+  "peer_feedback": {
+    "period": "2025-上期",
+    "source": "ADチーム",
+    "good": [
+      "洞察力が高い",
+      "常にフラット",
+      "機嫌が安定している",
+      "多忙でも効率的に高品質なアウトプットができる",
+      "要点整理と翻訳力が非常に高い",
+      "切り替えが早い",
+      "共感される言葉選びができる",
+      "広い知識・好奇心を持つ"
+    ],
+    "more": [
+      "案件過多により、把握範囲や相談・リアクションの余白が見えにくい",
+      "仕切りが弱く見える瞬間がある",
+      "より突き抜けたクリエイティブを狙って牽引する姿勢が期待されている"
     ]
   },
-  "evaluations": [],
-  "one_on_ones": [],
-  "notes": "Communication Design Team リーダー。株式会社kiCk Creative Director。",
+  "projects": [],
+  "one_on_ones": [
+    {
+      "date": "2026-03-01",
+      "memo": "2026年3月 古橋との1on1メモ（内容は別途共有予定）"
+    },
+    {
+      "date": "2026-03-01",
+      "memo": "2026年3月 佐内との1on1メモ（内容は別途共有予定）"
+    },
+    {
+      "date": "2026-03-01",
+      "memo": "2026年3月 稲垣との1on1メモ（内容は別途共有予定）"
+    },
+    {
+      "date": "2026-03-01",
+      "memo": "2026年3月 坂井との1on1メモ（内容は別途共有予定）"
+    }
+  ],
+  "core_theme": {
+    "translation": "未来像と勝ち筋を示す。企画・表現・マネジメントを横断し、チーム全体の方向性を定義する。",
+    "half_year_theme": "",
+    "future_comment": ""
+  },
+  "management_memo": "チームリーダー本人のファイル。課題は『突き抜けたクリエイティブを牽引すること』と『メンバーが相談しやすい余白をつくること』の両立。案件過多の状態が続いており、1on1や相談の余白確保が構造的テーマ。",
   "updated_at": "2026-05-13T00:00:00+09:00"
 }

@@ -1,0 +1,44 @@
+{
+  "id": "member-002",
+  "name": {
+    "ja": "小野間 良",
+    "reading": "おのま りょう",
+    "en": "Ryo Onoma"
+  },
+  "role": "サブリーダー / コミュニケーションプランナー",
+  "status": "on_leave",
+  "birth_year": 1986,
+  "background": [
+    "建設工学バックグラウンド",
+    "Web領域",
+    "SNS領域"
+  ],
+  "strengths": [
+    "構造化に強い",
+    "Web／SNS領域に理解がある",
+    "建設工学バックグラウンドを持つ",
+    "コミュニケーションの実装面に強みがある",
+    "チームの設計・推進・実装の中核になりうる存在"
+  ],
+  "expertise": [
+    "コミュニケーション設計",
+    "Web／SNSコミュニケーション",
+    "構造化・実装"
+  ],
+  "peer_feedback": {
+    "period": "2025-上期",
+    "source": "",
+    "good": [],
+    "more": [],
+    "additional_comments": []
+  },
+  "projects": [],
+  "one_on_ones": [],
+  "core_theme": {
+    "translation": "構造と実装で支える。サブリーダーとして、宮崎が描いた未来像を設計・推進・実装に変換する。",
+    "half_year_theme": "",
+    "future_comment": ""
+  },
+  "management_memo": "現在育休中。復帰後はサブリーダーとしてチームの構造設計・実装面を担う存在として期待が高い。復帰時期・復帰後の役割設計を事前に整理しておく必要がある。",
+  "updated_at": "2026-05-13T00:00:00+09:00"
+}
