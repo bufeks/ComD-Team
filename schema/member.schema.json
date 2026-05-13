@@ -11,7 +11,7 @@
       "required": ["ja"],
       "properties": {
         "ja": { "type": "string" },
-        "reading": { "type": "string", "description": "よみがな" },
+        "reading": { "type": "string" },
         "en": { "type": "string" }
       }
     },
@@ -31,12 +31,16 @@
     },
     "background": {
       "type": "array",
-      "description": "学歴・職歴・資格などのバックグラウンド",
       "items": { "type": "string" }
     },
     "strengths": {
       "type": "array",
       "description": "強み・特徴（定性）",
+      "items": { "type": "string" }
+    },
+    "blind_spots": {
+      "type": "array",
+      "description": "盲点・リスク・課題傾向",
       "items": { "type": "string" }
     },
     "skills": {
@@ -71,37 +75,49 @@
     },
     "clifton_strengths": {
       "type": "object",
-      "description": "CliftonStrengths（ストレングスファインダー）",
       "properties": {
         "top5": { "type": "array", "items": { "type": "string" } },
         "top10": { "type": "array", "items": { "type": "string" } },
-        "summary": { "type": "string", "description": "資質から見た大きな傾向まとめ" }
+        "summary": { "type": "string" }
       }
     },
     "talent_analytics": {
       "type": "object",
-      "description": "Talent Analytics診断結果",
       "properties": {
-        "assessed_at": { "type": "string", "description": "診断時点（例: 2019年、32歳）" },
+        "assessed_at": { "type": "string" },
         "scores": {
           "type": "object",
-          "description": "各指標スコア（0〜100）",
           "additionalProperties": { "type": "number" }
         }
       }
     },
     "peer_feedback": {
       "type": "object",
-      "description": "周囲（AD・プロデューサー等）からのGood/More評価",
+      "description": "ADチームからのGood/More",
       "properties": {
         "period": { "type": "string" },
-        "source": { "type": "string", "description": "評価者の属性（例: ADチーム）" },
+        "source": { "type": "string" },
         "good": { "type": "array", "items": { "type": "string" } },
         "more": { "type": "array", "items": { "type": "string" } },
-        "additional_comments": {
-          "type": "array",
-          "items": { "type": "string" }
-        }
+        "additional_comments": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "producer_feedback": {
+      "type": "object",
+      "description": "プロデューサーチームからの追加評価コメント",
+      "properties": {
+        "period": { "type": "string" },
+        "comments": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "self_evaluation": {
+      "type": "object",
+      "properties": {
+        "period": { "type": "string" },
+        "summary": { "type": "string" },
+        "achievements": { "type": "array", "items": { "type": "string" } },
+        "areas_for_improvement": { "type": "array", "items": { "type": "string" } },
+        "growth_areas": { "type": "array", "items": { "type": "string" } }
       }
     },
     "projects": {
@@ -117,17 +133,6 @@
           "start_date": { "type": "string", "format": "date" },
           "end_date": { "type": "string", "format": "date" }
         }
-      }
-    },
-    "self_evaluation": {
-      "type": "object",
-      "description": "自己評価（上期・下期ごと）",
-      "properties": {
-        "period": { "type": "string", "description": "例: 2025-上期 (2025/06/01〜2025/11/30)" },
-        "summary": { "type": "string" },
-        "achievements": { "type": "array", "items": { "type": "string" } },
-        "areas_for_improvement": { "type": "array", "items": { "type": "string" } },
-        "growth_areas": { "type": "array", "items": { "type": "string" } }
       }
     },
     "goals": {
@@ -173,13 +178,13 @@
     },
     "one_on_ones": {
       "type": "array",
-      "description": "1on1ログ（解釈を加えず記録）",
+      "description": "1on1ログ（解釈を加えず原文記録）",
       "items": {
         "type": "object",
         "required": ["date", "memo"],
         "properties": {
           "date": { "type": "string", "format": "date" },
-          "memo": { "type": "string", "description": "1on1メモ（原文ログ）" },
+          "memo": { "type": "string" },
           "action_items": {
             "type": "array",
             "items": {
@@ -199,14 +204,30 @@
       "type": "object",
       "description": "「全員がプロジェクトの中心人物になる」の個人別翻訳",
       "properties": {
-        "translation": { "type": "string", "description": "そのメンバーにとっての中心人物化の意味" },
-        "half_year_theme": { "type": "string", "description": "半年ごとの仮テーマ" },
+        "translation": { "type": "string" },
+        "future_themes": {
+          "type": "array",
+          "description": "今後のテーマ案・半年仮テーマ",
+          "items": { "type": "string" }
+        },
         "future_comment": { "type": "string", "description": "未来志向コメント" }
       }
     },
     "management_memo": {
       "type": "string",
       "description": "宮崎太郎によるマネジメントメモ（自由記述）"
+    },
+    "data_quality": {
+      "type": "object",
+      "description": "このメンバーのデータ充実度・出典メモ",
+      "properties": {
+        "evaluation_completeness": {
+          "type": "string",
+          "enum": ["full", "partial", "minimal"],
+          "description": "評価情報の充実度"
+        },
+        "notes": { "type": "string" }
+      }
     },
     "updated_at": { "type": "string", "format": "date-time" }
   }
