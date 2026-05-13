@@ -1,0 +1,200 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ComD Team Member",
+  "description": "Communication Design Team メンバー情報スキーマ",
+  "type": "object",
+  "required": ["id", "name", "role", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "メンバーID（例: member-001）"
+    },
+    "name": {
+      "type": "object",
+      "required": ["ja", "en"],
+      "properties": {
+        "ja": { "type": "string", "description": "氏名（日本語）" },
+        "en": { "type": "string", "description": "Name (English)" }
+      }
+    },
+    "role": {
+      "type": "string",
+      "description": "役職・ポジション",
+      "examples": [
+        "Creative Director",
+        "Art Director",
+        "Senior Designer",
+        "Designer",
+        "Copywriter",
+        "Planner",
+        "Producer"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "on_leave", "part_time", "contractor"],
+      "description": "在籍ステータス"
+    },
+    "contact": {
+      "type": "object",
+      "properties": {
+        "email": { "type": "string", "format": "email" },
+        "slack": { "type": "string", "description": "Slackユーザー名" },
+        "phone": { "type": "string" }
+      }
+    },
+    "joined_date": {
+      "type": "string",
+      "format": "date",
+      "description": "チーム参加日"
+    },
+    "skills": {
+      "type": "array",
+      "description": "スキル一覧",
+      "items": {
+        "type": "object",
+        "required": ["name", "level"],
+        "properties": {
+          "name": { "type": "string", "description": "スキル名" },
+          "level": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "習熟度 1=初級 ～ 5=エキスパート"
+          },
+          "category": {
+            "type": "string",
+            "enum": ["design", "copy", "strategy", "tool", "management", "other"]
+          }
+        }
+      }
+    },
+    "tools": {
+      "type": "array",
+      "description": "使用ツール",
+      "items": {
+        "type": "object",
+        "required": ["name", "level"],
+        "properties": {
+          "name": { "type": "string" },
+          "level": {
+            "type": "string",
+            "enum": ["beginner", "intermediate", "advanced", "expert"]
+          }
+        }
+      }
+    },
+    "expertise": {
+      "type": "array",
+      "description": "得意分野・専門領域",
+      "items": { "type": "string" }
+    },
+    "projects": {
+      "type": "array",
+      "description": "担当プロジェクト",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "role", "status"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "role": { "type": "string", "description": "プロジェクト内役割" },
+          "status": {
+            "type": "string",
+            "enum": ["active", "completed", "on_hold"]
+          },
+          "start_date": { "type": "string", "format": "date" },
+          "end_date": { "type": "string", "format": "date" }
+        }
+      }
+    },
+    "goals": {
+      "type": "object",
+      "description": "目標管理",
+      "properties": {
+        "fiscal_year": { "type": "string", "description": "対象年度 例: 2026" },
+        "okrs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["objective", "key_results"],
+            "properties": {
+              "objective": { "type": "string", "description": "目標（O）" },
+              "key_results": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["description", "target", "current"],
+                  "properties": {
+                    "description": { "type": "string" },
+                    "target": { "type": "number" },
+                    "current": { "type": "number" },
+                    "unit": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "evaluations": {
+      "type": "array",
+      "description": "評価記録",
+      "items": {
+        "type": "object",
+        "required": ["period", "overall"],
+        "properties": {
+          "period": { "type": "string", "description": "評価期間 例: 2025-H2" },
+          "overall": {
+            "type": "string",
+            "enum": ["S", "A", "B", "C", "D"],
+            "description": "総合評価"
+          },
+          "comment": { "type": "string", "description": "コメント・フィードバック" },
+          "strengths": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "areas_for_growth": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "one_on_ones": {
+      "type": "array",
+      "description": "1on1記録",
+      "items": {
+        "type": "object",
+        "required": ["date", "summary"],
+        "properties": {
+          "date": { "type": "string", "format": "date" },
+          "summary": { "type": "string", "description": "話し合った内容のサマリー" },
+          "action_items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "description": { "type": "string" },
+                "owner": { "type": "string" },
+                "due_date": { "type": "string", "format": "date" },
+                "done": { "type": "boolean" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "自由記述メモ"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "最終更新日時"
+    }
+  }
+}

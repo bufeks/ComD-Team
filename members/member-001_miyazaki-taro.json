@@ -1,0 +1,95 @@
+{
+  "id": "member-001",
+  "name": {
+    "ja": "宮崎 太郎",
+    "en": "Taro Miyazaki"
+  },
+  "role": "Creative Director",
+  "status": "active",
+  "contact": {
+    "email": "t.miyazaki@kick.co.jp",
+    "slack": "@taro.miyazaki"
+  },
+  "joined_date": "2020-04-01",
+  "skills": [
+    { "name": "クリエイティブディレクション", "level": 5, "category": "management" },
+    { "name": "ブランディング戦略", "level": 5, "category": "strategy" },
+    { "name": "UI/UXデザイン", "level": 4, "category": "design" },
+    { "name": "コピーライティング", "level": 4, "category": "copy" },
+    { "name": "プロジェクトマネジメント", "level": 5, "category": "management" },
+    { "name": "プレゼンテーション", "level": 5, "category": "management" }
+  ],
+  "tools": [
+    { "name": "Figma", "level": "advanced" },
+    { "name": "Adobe Illustrator", "level": "expert" },
+    { "name": "Adobe Photoshop", "level": "expert" },
+    { "name": "Adobe Premiere Pro", "level": "intermediate" },
+    { "name": "Notion", "level": "advanced" }
+  ],
+  "expertise": [
+    "ブランドアイデンティティ構築",
+    "統合コミュニケーション設計",
+    "クリエイティブチームマネジメント",
+    "クライアントリレーション"
+  ],
+  "projects": [
+    {
+      "id": "proj-2026-001",
+      "name": "○○ブランドリニューアル",
+      "role": "Creative Director",
+      "status": "active",
+      "start_date": "2026-01-01"
+    },
+    {
+      "id": "proj-2025-005",
+      "name": "△△キャンペーン",
+      "role": "Creative Director",
+      "status": "completed",
+      "start_date": "2025-06-01",
+      "end_date": "2025-12-31"
+    }
+  ],
+  "goals": {
+    "fiscal_year": "2026",
+    "okrs": [
+      {
+        "objective": "チームのアウトプット品質を業界トップ水準に引き上げる",
+        "key_results": [
+          {
+            "description": "クライアント満足度スコア",
+            "target": 4.8,
+            "current": 4.5,
+            "unit": "/ 5.0"
+          },
+          {
+            "description": "受賞・ノミネート件数",
+            "target": 3,
+            "current": 1,
+            "unit": "件"
+          }
+        ]
+      },
+      {
+        "objective": "メンバーの成長を加速させる組織づくり",
+        "key_results": [
+          {
+            "description": "1on1実施率（月次）",
+            "target": 100,
+            "current": 80,
+            "unit": "%"
+          },
+          {
+            "description": "チームエンゲージメントスコア",
+            "target": 85,
+            "current": 72,
+            "unit": "点"
+          }
+        ]
+      }
+    ]
+  },
+  "evaluations": [],
+  "one_on_ones": [],
+  "notes": "Communication Design Team リーダー。株式会社kiCk Creative Director。",
+  "updated_at": "2026-05-13T00:00:00+09:00"
+}

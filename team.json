@@ -1,0 +1,33 @@
+{
+  "team": {
+    "name": "Communication Design Team",
+    "abbreviation": "ComD",
+    "organization": "株式会社kiCk",
+    "leader": "member-001",
+    "description": "ブランドコミュニケーション設計からビジュアル・コピー表現まで統合的に担うクリエイティブチーム",
+    "updated_at": "2026-05-13T00:00:00+09:00"
+  },
+  "members": [
+    {
+      "id": "member-001",
+      "name": "宮崎 太郎",
+      "role": "Creative Director",
+      "status": "active",
+      "file": "members/member-001_miyazaki-taro.json"
+    },
+    {
+      "id": "member-002",
+      "name": "田中 花子",
+      "role": "Art Director",
+      "status": "active",
+      "file": "members/member-002_sample.json"
+    },
+    {
+      "id": "member-003",
+      "name": "佐藤 健",
+      "role": "Copywriter",
+      "status": "active",
+      "file": "members/member-003_sample.json"
+    }
+  ]
+}
