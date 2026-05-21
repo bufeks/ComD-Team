@@ -6,7 +6,7 @@
     "en": "Ryo Onoma"
   },
   "role": "サブリーダー / コミュニケーションプランナー",
-  "status": "on_leave",
+  "status": "active",
   "birth_year": 1986,
   "background": [
     "建設工学バックグラウンド",
@@ -76,5 +76,5 @@
     "evaluation_completeness": "minimal",
     "notes": "育休中のため直近の評価原文が薄い。復帰後にアップデート予定。"
   },
-  "updated_at": "2026-05-13T00:00:00+09:00"
+  "updated_at": "2026-05-21T00:00:00+09:00"
 }

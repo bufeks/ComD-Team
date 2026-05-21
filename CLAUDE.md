@@ -46,7 +46,7 @@ ComD-Team/
 | ID | 氏名 | 役割 | 状態 | data_completeness |
 |---|---|---|---|---|
 | member-001 | 宮崎 太郎 | CD / チームリーダー | active | full |
-| member-002 | 小野間 良 | サブリーダー / プランナー | on_leave（育休中） | minimal |
+| member-002 | 小野間 良 | サブリーダー / プランナー | active（2026-05-21復帰） | minimal |
 | member-003 | 鈴木 雅昭 | コピーライター | active | minimal |
 | member-004 | 坂井 大生 | コピーライター | active | full |
 | member-005 | 佐内 歩 | プランナー | active | full |
@@ -102,8 +102,8 @@ PDFレポートから全34資質順位データを各メンバーJSONに反映�
   - CliftonStrengths 34: 反映済み（2026-05-21）
   - 残課題: 2025上期自己評価・ADフィードバック原文が未取得
 - [ ] **member-002（小野間良）の復帰後ロール再定義**
-  - 育休復帰のタイミングで`status`を`active`に更新
-  - 復帰後評価・役割定義を追加
+  - 2026-05-21 復帰済み・status更新済み
+  - 復帰後の役割定義・1on1実施が必要
 
 ### 優先度：低
 - [ ] **member-006（稲垣香奈）のCliftonStrengths反映**（PDFが手元にある場合）
