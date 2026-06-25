@@ -1,7 +1,8 @@
 {
   "title": "年俸・賞与通知面談ガイド",
   "description": "社長・宮崎・本人の3者面談記録（2025-下期）を分析し、来期以降に宮崎単独で実施するための構造・ポイントをまとめたもの",
-  "based_on": ["member-003（鈴木）", "member-004（坂井）", "member-006（稲垣）"],
+  "speaker_note": "raw_noteの発言者は社長。宮崎はこの面談に同席し観察した立場。来年は宮崎がこの役割を引き継いで単独実施する。",
+  "based_on": ["member-003（鈴木）", "member-004（坂井）", "member-006（稲垣）", "member-002（小野間）", "member-005（佐内）", "member-007（古橋）"],
 
   "meeting_structure": {
     "description": "3者面談の基本的な流れ",
@@ -105,7 +106,8 @@
 
   "lessons_learned": {
     "description": "2025-下期・全員分の面談記録を横断して得られた学び（宮崎単独実施に向けて）",
-    "source": "member-002〜007の6名分のcompensation_meeting記録",
+    "source": "member-002〜007の6名分のcompensation_meeting記録（発言者：社長）",
+    "learning_stance": "宮崎は同席者として社長の話し方・構造・言葉の選び方を観察した。これらの学びは『社長がどうやったか』を自分のものにするための分析。",
     "lessons": [
       {
         "id": "L01",
