@@ -340,5 +340,21 @@
         "text": "CPRに対してもっと意見出しや指摘をしてもらえるとありがたいです。CDから言われることでCPRは成長すると思う"
       }
     ]
+  },
+  "compensation_meeting": {
+    "salary_data": {
+      "grade": "G3-M",
+      "annual_salary_13": 8500000,
+      "annual_salary_14": 8700000,
+      "bonus_13": {
+        "company": 250000,
+        "leader": 150000,
+        "individual": 1500000,
+        "award": 34290,
+        "award_detail": "GO FAR（Schick・11期 / SUNSTAR・12期下）",
+        "support": 0,
+        "referral": 0
+      }
+    }
   }
 }
