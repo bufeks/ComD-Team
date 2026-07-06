@@ -241,6 +241,22 @@
         "support": 0,
         "referral": 0
       }
+    },
+    "official_notice": {
+      "document_date": "2026-05-29",
+      "signed": true,
+      "period": "13期賞与・14期年俸",
+      "bonus_13": {
+        "company": 250000,
+        "leader": 0,
+        "individual": 450000,
+        "award": 14300,
+        "award_detail": "GO FAR（SUNSTAR・12期下）",
+        "total": 714300
+      },
+      "grade_14": "G1",
+      "annual_salary_14": 5850000,
+      "notes": "深夜みなし労働20時間分含む"
     }
   }
 }

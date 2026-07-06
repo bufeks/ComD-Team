@@ -355,6 +355,22 @@
         "support": 0,
         "referral": 0
       }
+    },
+    "official_notice": {
+      "document_date": "2026-05-29",
+      "signed": true,
+      "period": "13期賞与・14期年俸",
+      "bonus_13": {
+        "company": 250000,
+        "leader": 150000,
+        "individual": 1500000,
+        "award": 34300,
+        "award_detail": "GO FAR（Schick・11期 / SUNSTAR・12期下）",
+        "total": 1934300
+      },
+      "grade_14": "G3-M",
+      "annual_salary_14": 8700000,
+      "notes": "深夜みなし労働20時間分含む"
     }
   }
 }

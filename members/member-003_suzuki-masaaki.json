@@ -227,6 +227,22 @@
         "referral": 0
       },
       "notes": "家庭の事情により稼働70%。年俸はフルタイム換算650万の70%＝455万。賞与も同係数（8/12）を適用。年俸改定中。"
+    },
+    "official_notice": {
+      "document_date": "2026-05-29",
+      "signed": true,
+      "period": "13期賞与・14期年俸",
+      "bonus_13": {
+        "company": 166700,
+        "leader": 0,
+        "individual": 366700,
+        "award": 14300,
+        "award_detail": "GO FAR（SUNSTAR・12期下）",
+        "total": 547700
+      },
+      "grade_14": "G2",
+      "annual_salary_14": 4550000,
+      "notes": "時間制約相談済・深夜みなし労働20時間分含む"
     }
   }
 }

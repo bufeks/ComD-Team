@@ -220,6 +220,22 @@
         "referral": 0
       },
       "notes": "入社1年未満・賞与対象外・表彰金のみ支給"
+    },
+    "official_notice": {
+      "document_date": "2026-05-29",
+      "signed": true,
+      "period": "13期賞与・14期年俸",
+      "bonus_13": {
+        "company": 0,
+        "leader": 0,
+        "individual": 0,
+        "award": 50000,
+        "award_detail": "MIM 3月度",
+        "total": 50000
+      },
+      "grade_14": "G3-M",
+      "annual_salary_14": 6800000,
+      "notes": "在籍1年未満につき賞与なし・表彰金のみ支給・深夜みなし労働20時間分含む"
     }
   }
 }

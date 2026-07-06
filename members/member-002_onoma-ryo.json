@@ -227,6 +227,22 @@
         "referral": 0
       },
       "notes": "育児休暇6か月（賞与係数50%）・年俸据え置き"
+    },
+    "official_notice": {
+      "document_date": "2026-05-29",
+      "signed": true,
+      "period": "13期賞与・14期年俸",
+      "bonus_13": {
+        "company": 125000,
+        "leader": 75000,
+        "individual": 300000,
+        "award": 34300,
+        "award_detail": "GO FAR（JT・12期上 / SUNSTAR・12期下）",
+        "total": 534300
+      },
+      "grade_14": "G3-M",
+      "annual_salary_14": 7680000,
+      "notes": "深夜みなし労働20時間分含む"
     }
   }
 }
